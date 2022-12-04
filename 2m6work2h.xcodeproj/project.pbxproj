@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		00A2A3D7293BA3A800259A4C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3D6293BA3A800259A4C /* main.swift */; };
+		00A2A3DE293BA3D200259A4C /* protocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3DD293BA3D200259A4C /* protocol.swift */; };
+		00A2A3E0293BA48500259A4C /* food.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3DF293BA48500259A4C /* food.swift */; };
+		00A2A3E2293BA4FA00259A4C /* drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3E1293BA4FA00259A4C /* drink.swift */; };
+		00A2A3E4293BA53C00259A4C /* soapWasher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3E3293BA53C00259A4C /* soapWasher.swift */; };
+		00A2A3E6293BA57D00259A4C /* technics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00A2A3E5293BA57D00259A4C /* technics.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		00A2A3D3293BA3A800259A4C /* 2m6work2h */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = 2m6work2h; sourceTree = BUILT_PRODUCTS_DIR; };
 		00A2A3D6293BA3A800259A4C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		00A2A3DD293BA3D200259A4C /* protocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = protocol.swift; sourceTree = "<group>"; };
+		00A2A3DF293BA48500259A4C /* food.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = food.swift; sourceTree = "<group>"; };
+		00A2A3E1293BA4FA00259A4C /* drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = drink.swift; sourceTree = "<group>"; };
+		00A2A3E3293BA53C00259A4C /* soapWasher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = soapWasher.swift; sourceTree = "<group>"; };
+		00A2A3E5293BA57D00259A4C /* technics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = technics.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				00A2A3D6293BA3A800259A4C /* main.swift */,
+				00A2A3DD293BA3D200259A4C /* protocol.swift */,
+				00A2A3DF293BA48500259A4C /* food.swift */,
+				00A2A3E1293BA4FA00259A4C /* drink.swift */,
+				00A2A3E3293BA53C00259A4C /* soapWasher.swift */,
+				00A2A3E5293BA57D00259A4C /* technics.swift */,
 			);
 			path = 2m6work2h;
 			sourceTree = "<group>";
@@ -120,7 +135,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00A2A3E6293BA57D00259A4C /* technics.swift in Sources */,
+				00A2A3E4293BA53C00259A4C /* soapWasher.swift in Sources */,
 				00A2A3D7293BA3A800259A4C /* main.swift in Sources */,
+				00A2A3DE293BA3D200259A4C /* protocol.swift in Sources */,
+				00A2A3E2293BA4FA00259A4C /* drink.swift in Sources */,
+				00A2A3E0293BA48500259A4C /* food.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
